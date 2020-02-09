@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="es-mx">
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Sistema de Estimulación Temprana para Bebés que funciona a través del aprendizaje de 7 idiomas para edades de 0 a 7 años." />
+    <meta name="keywords" content="estimulación-temprana, idiomas, bebés, familia, aprender, diversion, inteligencia, habilidad, comprensión, juegos, creatividad, desempeño, sonrisas, actividad-neuronal, novedoso, alemán, español, francés, inglés, italiano, mandarín, portugués" />
+    <meta name="robots" content="index, nofollow" />
+    <meta http-equiv="cache-control" content="no-cache" />
+
     <title>Capital Cognitivo</title>
 </head>
 <body>
