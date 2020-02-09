@@ -9,9 +9,22 @@
     <meta http-equiv="cache-control" content="no-cache" />
 
     <title>Capital Cognitivo</title>
+
+    <style>
+        body, h1, h5 {font-family: "Raleway", sans-serif}
+        body, html {height: 100%}
+        .bgimg {
+            background-image: url( {{ asset('media/1.jpg')  }} );
+            min-height: 100%;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
-
+    <div class="bgimg">
+        <img src="{{ asset('media/cognitivo.png') }}" height="90px" />
+    </div>
 </body>
 </html>
 
