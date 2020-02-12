@@ -12,19 +12,39 @@
 
     <style>
         body, h1, h5 {font-family: "Raleway", sans-serif}
-        body, html {height: 100%}
-        .bgimg {
+        
+        body, html {height: 100%; width: 100%;}
+        
+        body {
             background-image: url( {{ asset('media/1.jpg')  }} );
             min-height: 100%;
             background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
             background-size: cover;
+            background-color: #fff3e0;
         }
+        
+
+        .bgimg {
+           background-image: url( {{ asset('media/logos.png') }} );
+      
+            min-height: 100%;
+           background-repeat: no-repeat;
+           background-position: center;
+        }
+
+
+
+
     </style>
 </head>
 <body>
+    <img src="{{ asset('media/cognitivo.png') }}" height="90px" />
     <div class="bgimg">
-        <img src="{{ asset('media/cognitivo.png') }}" height="90px" />
+        
     </div>
+ 
 </body>
 </html>
 
