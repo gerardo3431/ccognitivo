@@ -10,6 +10,8 @@
 
     <title>Capital Cognitivo</title>
 
+    <link rel="stylesheet" href="{{ asset('css/materialize.css') }}">
+
     <style>
         body, h1, h5 {font-family: "Raleway", sans-serif}
         
@@ -39,13 +41,115 @@
 
     </style>
 </head>
-<body>
-    <img src="{{ asset('media/cognitivo.png') }}" height="90px" />
-    <div class="bgimg">
-        
-    </div>
+<body class="container">
+    
+        <img src="{{ asset('media/cognitivo.png') }}" height="90px" />
+        <!-- Cards -->
+        <div class="row">
+            <div class="col s12 m2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="{{ asset('media/products/mbp/mbp-card.jpg') }}" />
+                    </div>
+                    <div class="card-content">
+                        <p>Método Bebé Políglota fusiona la diversión y el aprendizaje desarrollando el cerebro...</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Saber más</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col s12 m2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="{{ asset('media/products/neuron_baby/neuron_baby-card.jpg') }}" />
+                    </div>
+                    <div class="card-content">
+                        <p>Programa de estimulación temprana o atención temprana multisensorial que consiste en proporcionar al bebé y...</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Saber más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="{{ asset('media/products/pavinchi/pavinchi-card.jpg') }}" />
+                    </div>
+                    <div class="card-content">
+                        <p>Nuestras historias son adaptaciones de los cuentos clásicos, fábulas y leyendas. Cuentan con una narración literaria apta para las familias y con tecnología de...</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Saber más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="{{ asset('media/products/neuron_school/neuron_school-card.jpg') }}" />
+                    </div>
+                    <div class="card-content">
+                        <p>Método de enseñanza neuro psicopedagógico que desarrolla habilidades de manera lúdica para la futura etapa preescolar. Dirigido a niños de los 2 años.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Saber más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="{{ asset('media/products/neuron_english/neuron_english-card.jpg') }}" />
+                    </div>
+                    <div class="card-content">
+                        <p>Programa de activación neuronal para los niños y niñas que promueve el desarrollo de habilidades cognitivas y el aprendizaje de manera natural...</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Saber más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="{{ asset('media/products/polyglot_school/polyglot_school-card.jpg') }}" />
+                    </div>
+                    <div class="card-content">
+                        <p>Programa multilingüe de activación neuronal, para niños y niñas, que aprovecha la plasticidad cerebral, para desarrollar habilidades...</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Saber más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="{{ asset('media/products/luka/luka-card.jpg') }}" />
+                    </div>
+                    <div class="card-content">
+                        <p>Luka Robot, es el mejor amigo de los niños, inteligencia artificial educativa que enseña a los más pequeños a desarrollar amor por la lectura y los buenos hábitos...</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Saber más</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    
  
 </body>
+<script type="text/javascript" src="{{ asset('js/materialize.js') }}" ></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js" ></script>
 </html>
 
 
