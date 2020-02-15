@@ -10,8 +10,11 @@
 
     <title>Capital Cognitivo</title>
 
-    <link rel="stylesheet" href="{{ asset('css/materialize.css') }}">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css' />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ asset('css/materialize.css') }}" />
 
+<!--
     <style>
         body, h1, h5 {font-family: "Raleway", sans-serif}
         
@@ -39,13 +42,20 @@
 
 
 
-    </style>
+    </style>  -->
 </head>
-<body class="container">
-    
+<body>
         <img src="{{ asset('media/cognitivo.png') }}" height="90px" />
+<div class="parallax-container">
+    <div class="parallax">
+        <img src="{{ asset('media/1.jpg') }}" />
+    </div>
+</div>
+    
+    <div class="section white">
+        
         <!-- Cards -->
-        <div class="row">
+        <div class="row container">
             <div class="col s12 m2">
                 <div class="card">
                     <div class="card-image">
@@ -145,11 +155,17 @@
             </div>
 
         </div>
+    </div>
     
  
 </body>
-<script type="text/javascript" src="{{ asset('js/materialize.js') }}" ></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js" ></script>
+<script type="text/javascript" src="{{ asset('js/materialize.js') }}" ></script>
+<script>
+    $(document).ready(function(){
+        $('parallax').parallax();
+    });
+</script>
 </html>
 
 
