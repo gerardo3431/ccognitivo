@@ -59,8 +59,6 @@
         <li><a href="#">Servicios</a></li>
         <li><a href="#">Contactos</a></li>
     </ul>
-    
-    <div class="section white">
 <!-- End Nav -->
 
 <!-- Carousel -->
@@ -199,6 +197,34 @@
         </div>
     </div>
 <!-- End Parallax -->
+
+<!-- Footer -->
+    <footer class="page-footer green">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a href="#" class="grey-text text-lighten-3">Link 1</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">Link 2</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">Link 3</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2020 Copyright Text
+                <a href="#" class="grey-text text-lighten-4 right">More Links</a>
+            </div>
+        </div>
+    </footer>
+<!-- End Footer -->
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js" ></script>
 <script type="text/javascript" src="{{ asset('js/materialize.min.js') }}" ></script>
@@ -208,9 +234,10 @@
         $('.materialboxed').materialbox();
         $('.sidenav').sidenav();
         $('.carousel.carousel-slider').carousel({
-            fullwidth: true,
+            fullWidth: true,
             indicators: true
         });
+
     });
 </script>
 </html>
