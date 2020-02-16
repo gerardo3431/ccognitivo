@@ -45,8 +45,8 @@
     </style>  -->
 </head>
 <body>
-        <img src="{{ asset('media/cognitivo.png') }}" height="90px" />
 <div class="parallax-container">
+    <img src="{{ asset('media/cognitivo.png') }}" height="90px" />
     <div class="parallax">
         <img src="{{ asset('media/1.jpg') }}" />
     </div>
@@ -54,7 +54,7 @@
     
     <div class="section white">
         
-        <!-- Cards -->
+        <!-- INIT CARDS -->
         <div class="row container">
             <div class="col s12 m2">
                 <div class="card">
@@ -156,14 +156,14 @@
 
         </div>
     </div>
-    
+    <!-- END CARDS -->
  
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js" ></script>
-<script type="text/javascript" src="{{ asset('js/materialize.js') }}" ></script>
+<script type="text/javascript" src="{{ asset('js/materialize.min.js') }}" ></script>
 <script>
     $(document).ready(function(){
-        $('parallax').parallax();
+        $('.parallax').parallax();
     });
 </script>
 </html>
