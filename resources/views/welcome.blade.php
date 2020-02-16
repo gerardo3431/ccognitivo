@@ -104,7 +104,7 @@
                         <img src="{{ asset('media/products/neuron_school/neuron_school-card.jpg') }}" />
                     </div>
                     <div class="card-content">
-                        <p>Método de enseñanza neuro psicopedagógico que desarrolla habilidades de manera lúdica para la futura etapa preescolar. Dirigido a niños de los 2 años.</p>
+                        <p>Método de enseñanza neuro psicopedagógico que desarrolla habilidades de manera lúdica para la futura etapa preescolar...</p>
                     </div>
                     <div class="card-action">
                         <a href="#">Saber más</a>
@@ -118,7 +118,7 @@
                         <img src="{{ asset('media/products/neuron_english/neuron_english-card.jpg') }}" />
                     </div>
                     <div class="card-content">
-                        <p>Programa de activación neuronal para los niños y niñas que promueve el desarrollo de habilidades cognitivas y el aprendizaje de manera natural...</p>
+                        <p>Programa de activación neuronal para los niños y niñas que promueve el desarrollo de habilidades cognitivas y el aprendizaje...</p>
                     </div>
                     <div class="card-action">
                         <a href="#">Saber más</a>
@@ -146,7 +146,7 @@
                         <img src="{{ asset('media/products/luka/luka-card.jpg') }}" />
                     </div>
                     <div class="card-content">
-                        <p>Luka Robot, es el mejor amigo de los niños, inteligencia artificial educativa que enseña a los más pequeños a desarrollar amor por la lectura y los buenos hábitos...</p>
+                        <p>Luka Robot, es el mejor amigo de los niños, inteligencia artificial educativa que enseña a los más pequeños a desarrollar amor por la lectura...</p>
                     </div>
                     <div class="card-action">
                         <a href="#">Saber más</a>
