@@ -45,21 +45,34 @@
     </style>  -->
 </head>
 <body>
-<div class="parallax-container">
-    <img src="{{ asset('media/cognitivo.png') }}" height="90px" />
-    <div class="parallax">
-        <img src="{{ asset('media/1.jpg') }}" />
+<!-- Nav -->
+<nav>
+    <div class="nav-wrapper green lighten-1">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
     </div>
-</div>
+</nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contactos</a></li>
+    </ul>
     
     <div class="section white">
-        
-        <!-- INIT CARDS -->
-        <div class="row container">
+<!-- End Nav -->
+
+<!-- Carousel -->
+    
+<!-- End Carousel -->
+
+<!-- INIT CARDS -->
+        <div class="row ">
             <div class="col s12 m2">
                 <div class="card">
                     <div class="card-image">
-                        <img src="{{ asset('media/products/mbp/mbp-card.jpg') }}" />
+                        <img src="{{ asset('media/products/mbp/mbp-card.jpg') }}" class="materialboxed" />
                     </div>
                     <div class="card-content">
                         <p>Método Bebé Políglota fusiona la diversión y el aprendizaje desarrollando el cerebro...</p>
@@ -73,10 +86,10 @@
             <div class="col s12 m2">
                 <div class="card">
                     <div class="card-image">
-                        <img src="{{ asset('media/products/neuron_baby/neuron_baby-card.jpg') }}" />
+                        <img src="{{ asset('media/products/neuron_baby/neuron_baby-card.jpg') }}" class="materialboxed" />
                     </div>
                     <div class="card-content">
-                        <p>Programa de estimulación temprana o atención temprana multisensorial que consiste en proporcionar al bebé y...</p>
+                        <p>Programa de estimulación temprana o atención temprana multisensorial que consiste en proporcionar...</p>
                     </div>
                     <div class="card-action">
                         <a href="#">Saber más</a>
@@ -87,10 +100,10 @@
             <div class="col s12 m2">
                 <div class="card">
                     <div class="card-image">
-                        <img src="{{ asset('media/products/pavinchi/pavinchi-card.jpg') }}" />
+                        <img src="{{ asset('media/products/pavinchi/pavinchi-card.jpg') }}" class="materialboxed" />
                     </div>
                     <div class="card-content">
-                        <p>Nuestras historias son adaptaciones de los cuentos clásicos, fábulas y leyendas. Cuentan con una narración literaria apta para las familias y con tecnología de...</p>
+                        <p>Nuestras historias son adaptaciones de los cuentos clásicos, fábulas y leyendas. Cuentan con una...</p>
                     </div>
                     <div class="card-action">
                         <a href="#">Saber más</a>
@@ -101,10 +114,10 @@
             <div class="col s12 m2">
                 <div class="card">
                     <div class="card-image">
-                        <img src="{{ asset('media/products/neuron_school/neuron_school-card.jpg') }}" />
+                        <img src="{{ asset('media/products/neuron_school/neuron_school-card.jpg') }}" class="materialboxed" />
                     </div>
                     <div class="card-content">
-                        <p>Método de enseñanza neuro psicopedagógico que desarrolla habilidades de manera lúdica para la futura etapa preescolar...</p>
+                        <p>Método de enseñanza neuro psicopedagógico que desarrolla habilidades de manera lúdica...</p>
                     </div>
                     <div class="card-action">
                         <a href="#">Saber más</a>
@@ -115,10 +128,10 @@
             <div class="col s12 m2">
                 <div class="card">
                     <div class="card-image">
-                        <img src="{{ asset('media/products/neuron_english/neuron_english-card.jpg') }}" />
+                        <img src="{{ asset('media/products/neuron_english/neuron_english-card.jpg') }}" class="materialboxed" />
                     </div>
                     <div class="card-content">
-                        <p>Programa de activación neuronal para los niños y niñas que promueve el desarrollo de habilidades cognitivas y el aprendizaje...</p>
+                        <p>Programa de activación neuronal para los niños y niñas que promueve el desarrollo de habilidades...</p>
                     </div>
                     <div class="card-action">
                         <a href="#">Saber más</a>
@@ -129,10 +142,10 @@
             <div class="col s12 m2">
                 <div class="card">
                     <div class="card-image">
-                        <img src="{{ asset('media/products/polyglot_school/polyglot_school-card.jpg') }}" />
+                        <img src="{{ asset('media/products/polyglot_school/polyglot_school-card.jpg') }}" class="materialboxed" />
                     </div>
                     <div class="card-content">
-                        <p>Programa multilingüe de activación neuronal, para niños y niñas, que aprovecha la plasticidad cerebral, para desarrollar habilidades...</p>
+                        <p>Programa multilingüe de activación neuronal, para niños y niñas, que aprovecha la plasticidad cerebral...</p>
                     </div>
                     <div class="card-action">
                         <a href="#">Saber más</a>
@@ -143,10 +156,10 @@
             <div class="col s12 m2">
                 <div class="card">
                     <div class="card-image">
-                        <img src="{{ asset('media/products/luka/luka-card.jpg') }}" />
+                        <img src="{{ asset('media/products/luka/luka-card.jpg') }}" class="materialboxed" />
                     </div>
                     <div class="card-content">
-                        <p>Luka Robot, es el mejor amigo de los niños, inteligencia artificial educativa que enseña a los más pequeños a desarrollar amor por la lectura...</p>
+                        <p>Luka Robot, es el mejor amigo de los niños, inteligencia artificial educativa que enseña a los más pequeños...</p>
                     </div>
                     <div class="card-action">
                         <a href="#">Saber más</a>
@@ -156,14 +169,28 @@
 
         </div>
     </div>
-    <!-- END CARDS -->
- 
+<!-- END CARDS -->
+
+<!-- Parallax -->
+    <div class="parallax-container">
+        <img src="{{ asset('media/cognitivo.png') }}" height="90px" />
+        <div class="parallax">
+            <img src="{{ asset('media/1.jpg') }}" />
+        </div>
+    </div>
+<!-- End Parallax -->
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js" ></script>
 <script type="text/javascript" src="{{ asset('js/materialize.min.js') }}" ></script>
 <script>
     $(document).ready(function(){
         $('.parallax').parallax();
+        $('.materialboxed').materialbox();
+        $('.sidenav').sidenav();
+        $('.carousel.carousel-slider').carousel({
+            full-width: true,
+            indicators: true
+        });
     });
 </script>
 </html>
