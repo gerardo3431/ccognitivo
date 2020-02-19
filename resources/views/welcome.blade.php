@@ -86,8 +86,10 @@
 <!-- End Carousel -->
 
 <!-- INIT CARDS -->
-        <div class="row ">
-            <div class="col s12 m2">
+    <div class="container">
+        <h2>Servicios</h2>
+        <div class="row">
+            <div class="col s12 m3">
                 <div class="card">
                     <div class="card-image">
                         <img src="{{ asset('media/products/mbp/mbp-card.jpg') }}" class="materialboxed" />
@@ -101,13 +103,13 @@
                 </div>
             </div>
             
-            <div class="col s12 m2">
+            <div class="col s12 m3">
                 <div class="card">
                     <div class="card-image">
                         <img src="{{ asset('media/products/neuron_baby/neuron_baby-card.jpg') }}" class="materialboxed" />
                     </div>
                     <div class="card-content">
-                        <p>Programa de estimulación temprana o atención temprana multisensorial que consiste en proporcionar...</p>
+                        <p>Programa de estimulación temprana o atención temprana multisensorial que consiste...</p>
                     </div>
                     <div class="card-action">
                         <a href="#">Saber más</a>
@@ -115,27 +117,13 @@
                 </div>
             </div>
 
-            <div class="col s12 m2">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="{{ asset('media/products/pavinchi/pavinchi-card.jpg') }}" class="materialboxed" />
-                    </div>
-                    <div class="card-content">
-                        <p>Nuestras historias son adaptaciones de los cuentos clásicos, fábulas y leyendas. Cuentan con una...</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">Saber más</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s12 m2">
+            <div class="col s12 m3">
                 <div class="card">
                     <div class="card-image">
                         <img src="{{ asset('media/products/neuron_school/neuron_school-card.jpg') }}" class="materialboxed" />
                     </div>
                     <div class="card-content">
-                        <p>Método de enseñanza neuro psicopedagógico que desarrolla habilidades de manera lúdica...</p>
+                        <p>Método de enseñanza neuro psicopedagógico que desarrolla habilidades de...</p>
                     </div>
                     <div class="card-action">
                         <a href="#">Saber más</a>
@@ -143,13 +131,13 @@
                 </div>
             </div>
 
-            <div class="col s12 m2">
+            <div class="col s12 m3">
                 <div class="card">
                     <div class="card-image">
                         <img src="{{ asset('media/products/neuron_english/neuron_english-card.jpg') }}" class="materialboxed" />
                     </div>
                     <div class="card-content">
-                        <p>Programa de activación neuronal para los niños y niñas que promueve el desarrollo de habilidades...</p>
+                        <p>Programa de activación neuronal para los niños y niñas que promueve el desarrollo...</p>
                     </div>
                     <div class="card-action">
                         <a href="#">Saber más</a>
@@ -157,27 +145,13 @@
                 </div>
             </div>
 
-            <div class="col s12 m2">
+            <div class="col s12 m3">
                 <div class="card">
                     <div class="card-image">
                         <img src="{{ asset('media/products/polyglot_school/polyglot_school-card.jpg') }}" class="materialboxed" />
                     </div>
                     <div class="card-content">
-                        <p>Programa multilingüe de activación neuronal, para niños y niñas, que aprovecha la plasticidad cerebral...</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">Saber más</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s12 m2">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="{{ asset('media/products/luka/luka-card.jpg') }}" class="materialboxed" />
-                    </div>
-                    <div class="card-content">
-                        <p>Luka Robot, es el mejor amigo de los niños, inteligencia artificial educativa que enseña a los más pequeños...</p>
+                        <p>Programa multilingüe de activación neuronal, para niños y niñas, que aprovecha...</p>
                     </div>
                     <div class="card-action">
                         <a href="#">Saber más</a>
@@ -197,6 +171,40 @@
         </div>
     </div>
 <!-- End Parallax -->
+
+<!-- Card 2 -->
+    <div class="container center">
+        <div class="row">
+            <div class="col s12 m3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="{{ asset('media/products/pavinchi/pavinchi-card.jpg') }}" class="materialboxed" />
+                    </div>
+                    <div class="card-content">
+                        <p>Nuestras historias son adaptaciones de los cuentos clásicos, fábulas y leyendas...</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Saber más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="{{ asset('media/products/luka/luka-card.jpg') }}" class="materialboxed" />
+                    </div>
+                    <div class="card-content">
+                        <p>Luka Robot, es el mejor amigo de los niños, inteligencia artificial educativa que...</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Saber más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- End Card 2 -->
 
 <!-- Footer -->
     <footer class="page-footer green">
@@ -228,18 +236,7 @@
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js" ></script>
 <script type="text/javascript" src="{{ asset('js/materialize.min.js') }}" ></script>
-<script>
-    $(document).ready(function(){
-        $('.parallax').parallax();
-        $('.materialboxed').materialbox();
-        $('.sidenav').sidenav();
-        $('.carousel.carousel-slider').carousel({
-            fullWidth: true,
-            indicators: true
-        });
-
-    });
-</script>
+<script type="text/javascript" src="{{ asset('js/init.js') }}"></script>
 </html>
 
 
