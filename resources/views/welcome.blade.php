@@ -47,7 +47,7 @@
 <body>
 <!-- Nav -->
 <nav>
-    <div class="nav-wrapper green lighten-1">
+    <div class="nav-wrapper purple darken-2">
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="#">Servicios</a></li>
@@ -63,22 +63,23 @@
 
 <!-- Carousel -->
     <div class="carousel carousel-slider center">
-        <div class="carousel-fixed-item center">
-            <a class="btn waves-effect white grey-text darken-text-2">Button</a>
-        </div>
         <div class="carousel-item red white-text" href="#one!">
+            <img src="{{ asset('media/products/luka/luka-banner-1.jpg') }}" class="responsive-img" />
             <h2>First Panel</h2>
             <p class="white-text">This is your first panel</p>
         </div>
-        <div class="carousel-item amber white-text" href="#two!">
+        <div class="carousel-item white-text" href="#two!">
+            <img src="{{ asset('media/products/pavinchi/pavinchi-banner-1.jpg') }}" class="responsive-img" />
             <h2>Second Panel</h2>
             <p class="white-text">This is your second panel</p>
         </div>
-        <div class="carousel-item green white-text" href="#three!">
+        <div class="carousel-item white-text" href="#three!">
+            <img src="{{ asset('media/products/neuron_school/neuron-school-banner-1.jpg') }}" class="responsive-img" />
             <h2>Third Panel</h2>
             <p class="white-text">This is your third panel</p>
         </div>
-        <div class="carousel-item blue white-text" href="#four!">
+        <div class="carousel-item white-text" href="#four!">
+            <img src="{{ asset('media/products/polyglot_school/polyglot-school-banner-1.jpg') }}" class="responsive-img" />
             <h2>Fourth Panel</h2>
             <p class="white-text">This is your fourth panel</p>
         </div>
@@ -225,15 +226,15 @@
 <!-- End Card 2 -->
 
 <!-- Footer -->
-    <footer class="page-footer green">
+    <footer class="page-footer purple accent-3">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="white-text">Footer Content</h5>
-                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    <h5 class="white-text">Capital Cognitivo</h5>
+                    <p class="grey-text text-lighten-4">Se está desarrollando la página.</p>
                 </div>
                 <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Links</h5>
+                    <h5 class="white-text">Redes Sociales</h5>
                     <ul>
                         <li><a href="#" class="grey-text text-lighten-3">Link 1</a></li>
                         <li><a href="#" class="grey-text text-lighten-3">Link 2</a></li>
