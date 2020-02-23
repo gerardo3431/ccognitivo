@@ -177,7 +177,7 @@
 
 <!-- Parallax -->
     <div class="parallax-container">
-        <img src="{{ asset('media/cognitivo.png') }}" height="90px" />
+        <img src="{{ asset('media/cognitivo-blanco.png') }}" height="90px" />
         <div class="parallax">
             <img src="{{ asset('media/1.jpg') }}" />
         </div>
