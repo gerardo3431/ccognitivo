@@ -98,8 +98,10 @@
                         <img src="{{ asset('media/products/mbp/mbp-card.jpg') }}" class="responsive-img activator" />
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">MBP</span>
-                        <p><a href="#">Saber más</a></p>
+                        <span class="card-title activator grey-text text-darken-4">MBP <i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Saber más</a>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Método Bebé Políglota <i class="material-icons right">close</i></span>
@@ -114,8 +116,10 @@
                         <img src="{{ asset('media/products/neuron_baby/neuron_baby-card.jpg') }}" class="responsive-img activator" />
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Neuron Baby</span>
-                        <p><a href="#">Saber más</a></p>
+                        <span class="card-title activator grey-text text-darken-4">Neuron Baby <i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Saber más</a>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Neuron Baby <i class="material-icons right">close</i></span>
@@ -130,8 +134,10 @@
                         <img src="{{ asset('media/products/neuron_school/neuron_school-card.jpg') }}" class="responsive-img activator" />
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Neuron School</span>   
-                        <p><a href="#">Saber más</a></p>
+                        <span class="card-title activator grey-text text-darken-4">Neuron School <i class="material-icons right">more_vert</i></span>   
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Saber más</a>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Neuron School <i class="material-icons right">close</i></span>
@@ -146,8 +152,10 @@
                         <img src="{{ asset('media/products/neuron_english/neuron_english-card.jpg') }}" class="responsive-img activator" />
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Neuron English</span>
-                        <p><a href="#">Saber más</a></p>
+                        <span class="card-title activator grey-text text-darken-4">Neuron English <i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Saber más</a>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Neuron English <i class="material-icons right">close</i></span>
@@ -162,8 +170,10 @@
                         <img src="{{ asset('media/products/polyglot_school/polyglot_school-card.jpg') }}" class="responsive-img activator" />
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Polyglot School</span>
-                        <p><a href="#">Saber más</a></p>
+                        <span class="card-title activator grey-text text-darken-4">Polyglot School <i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Saber más</a>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Polyglot School <i class="material-icons right">close</i></span>
