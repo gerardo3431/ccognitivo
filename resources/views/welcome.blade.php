@@ -93,7 +93,7 @@
         <div class="row">
             <div class="col s6 m4 xl3">
 
-                <div class="card">
+                <div class="card small">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img src="{{ asset('media/products/mbp/mbp-card.jpg') }}" class="responsive-img activator" />
                     </div>
@@ -111,7 +111,7 @@
             </div>
             
             <div class="col s6 m4 xl3">
-                <div class="card">
+                <div class="card small">
                     <div class="card-image  waves-effect waves-block waves-light">
                         <img src="{{ asset('media/products/neuron_baby/neuron_baby-card.jpg') }}" class="responsive-img activator" />
                     </div>
@@ -129,7 +129,7 @@
             </div>
 
             <div class="col s6 m4 xl3">
-                <div class="card">
+                <div class="card small">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img src="{{ asset('media/products/neuron_school/neuron_school-card.jpg') }}" class="responsive-img activator" />
                     </div>
@@ -147,7 +147,7 @@
             </div>
 
             <div class="col s6 m4 xl3">
-                <div class="card">
+                <div class="card small">
                     <div class="card-image  waves-effect waves-block waves-light">
                         <img src="{{ asset('media/products/neuron_english/neuron_english-card.jpg') }}" class="responsive-img activator" />
                     </div>
@@ -165,7 +165,7 @@
             </div>
 
             <div class="col s6 m4 xl3">
-                <div class="card">
+                <div class="card small">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img src="{{ asset('media/products/polyglot_school/polyglot_school-card.jpg') }}" class="responsive-img activator" />
                     </div>
