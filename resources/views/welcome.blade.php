@@ -14,51 +14,24 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="{{ asset('css/materialize.css') }}" />
 
-<!--
-    <style>
-        body, h1, h5 {font-family: "Raleway", sans-serif}
-        
-        body, html {height: 100%; width: 100%;}
-        
-        body {
-            background-image: url( {{ asset('media/1.jpg')  }} );
-            min-height: 100%;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-            background-color: #fff3e0;
-        }
-        
-
-        .bgimg {
-           background-image: url( {{ asset('media/logos.png') }} );
-      
-            min-height: 100%;
-           background-repeat: no-repeat;
-           background-position: center;
-        }
-
-
-
-
-    </style>  -->
 </head>
 <body>
 <!-- Nav -->
-<nav>
-    <div class="nav-wrapper purple darken-2">
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </div>
-</nav>
-    <ul class="sidenav" id="mobile-demo">
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Contactos</a></li>
-    </ul>
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper purple darken-2">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contactos</a></li>
+            </ul>
+</div>
 <!-- End Nav -->
 
 <!-- Carousel -->
@@ -234,6 +207,20 @@
     </div>
 
 <!-- End Card 2 -->
+
+<!-- Floating Action Button -->
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large blue">
+            <i class="material-icons large">share</i>
+        </a>   
+            <ul>
+                <li><a href="https://web.facebook.com/MetodoBebePoliglotaMexico/" class="btn-floating" target="_blank"><img src="{{ asset('media/social/icon-facebook.png') }}" class="responsive-img" /></a></li>
+                <li><a href="https://www.instagram.com/bebepoliglotamx/" class="btn-floating" target="_blank"><img src="{{ asset('media/social/icon-instagram.png') }}" class="responsive-img" /></a></li>
+                <li><a href="https://www.twitter.com/bebepoliglotamx/" class="btn-floating" target="_blank"><img src="{{ asset('media/social/icon-twitter.png') }}" class="responsive-img" /></a></li>
+                <li><a href="https://www.youtube.com/channel/UCJXQQsMgZI_gkx6M5Y2uknw" class="btn-floating" target="_blank"><img src="{{ asset('media/social/icon-youtube.png') }}" class="responsive-img"></a></li>
+            </ul>
+    </div>
+<!-- End Floating Action Button -->
 
 <!-- Footer -->
     <footer class="page-footer purple accent-3">
