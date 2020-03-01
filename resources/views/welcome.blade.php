@@ -14,54 +14,126 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="{{ asset('css/materialize.css') }}" />
 
+    <style type="text/css">
+        .valign-wrapper {
+            height: 100vh;
+           justify-content: center;
+           align-items: center;
+        }
+    </style>
+
 </head>
 <body>
+<div class="valign-wrapper" id="preloader">
+    
+    <div class="preloader-wrapper big active">
+        <div class="spinner-layer spinner-blue">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+
+        <div class="spinner-layer spinner-red">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+
+        <div class="spinner-layer spinner-yellow">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+
+        <div class="spinner-layer spinner-green">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="hide" id="content">
+
 <!-- Nav -->
 <div class="navbar-fixed">
     <nav>
-        <div class="nav-wrapper purple darken-2">
+        <div class="nav-wrapper purple lighten-1">
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#">Servicios</a></li>
+                <li><a href="#servicio">Servicios</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
         </div>
     </nav>
+</div>
             <ul class="sidenav" id="mobile-demo">
-                <li><a href="#">Servicios</a></li>
+                <li>
+                    <div class="user-view">
+                        <div class="background">
+                            <img src="{{ asset('media/fondo-morado.jpg') }}" class="responsive-img" />
+                        </div>
+                        <a href="#">
+                            <span class="name white-text">Capital Cognitivo</span>
+                        </a>
+                        <a href="#">
+                            <span class="email white-text">contacto@estimulaciontemprana.com</span>
+                        </a>
+                    </div>
+                </li>
+                <li><a href="#servicio">Servicios</a></li>
+                <li><div class="divider"></div></li>
                 <li><a href="#">Contactos</a></li>
             </ul>
-</div>
 <!-- End Nav -->
 
 <!-- Carousel -->
     <div class="carousel carousel-slider center">
-        <div class="carousel-item red white-text" href="#one!">
+        <div class="carousel-item white-text" href="#one!">
             <img src="{{ asset('media/products/luka/luka-banner-1.jpg') }}" class="responsive-img" />
-            <h2>First Panel</h2>
-            <p class="white-text">This is your first panel</p>
         </div>
         <div class="carousel-item white-text" href="#two!">
             <img src="{{ asset('media/products/pavinchi/pavinchi-banner-1.jpg') }}" class="responsive-img" />
-            <h2>Second Panel</h2>
-            <p class="white-text">This is your second panel</p>
         </div>
         <div class="carousel-item white-text" href="#three!">
             <img src="{{ asset('media/products/neuron_school/neuron-school-banner-1.jpg') }}" class="responsive-img" />
-            <h2>Third Panel</h2>
-            <p class="white-text">This is your third panel</p>
         </div>
         <div class="carousel-item white-text" href="#four!">
             <img src="{{ asset('media/products/polyglot_school/polyglot-school-banner-1.jpg') }}" class="responsive-img" />
-            <h2>Fourth Panel</h2>
-            <p class="white-text">This is your fourth panel</p>
         </div>
     </div>
 <!-- End Carousel -->
 
 <!-- INIT CARDS -->
     <div class="container">
-        <h2>Servicios</h2>
+        <div class="section scrollspy" id="servicio">
+            <h2>Servicios</h2>
+        </div>
     
         <div class="row">
             <div class="col s6 m4 xl3">
@@ -214,10 +286,10 @@
             <i class="material-icons large">share</i>
         </a>   
             <ul>
-                <li><a href="https://web.facebook.com/MetodoBebePoliglotaMexico/" class="btn-floating" target="_blank"><img src="{{ asset('media/social/icon-facebook.png') }}" class="responsive-img" /></a></li>
-                <li><a href="https://www.instagram.com/bebepoliglotamx/" class="btn-floating" target="_blank"><img src="{{ asset('media/social/icon-instagram.png') }}" class="responsive-img" /></a></li>
-                <li><a href="https://www.twitter.com/bebepoliglotamx/" class="btn-floating" target="_blank"><img src="{{ asset('media/social/icon-twitter.png') }}" class="responsive-img" /></a></li>
                 <li><a href="https://www.youtube.com/channel/UCJXQQsMgZI_gkx6M5Y2uknw" class="btn-floating" target="_blank"><img src="{{ asset('media/social/icon-youtube.png') }}" class="responsive-img"></a></li>
+                <li><a href="https://www.twitter.com/bebepoliglotamx/" class="btn-floating" target="_blank"><img src="{{ asset('media/social/icon-twitter.png') }}" class="responsive-img" /></a></li>
+                <li><a href="https://www.instagram.com/bebepoliglotamx/" class="btn-floating" target="_blank"><img src="{{ asset('media/social/icon-instagram.png') }}" class="responsive-img" /></a></li>
+                <li><a href="https://web.facebook.com/MetodoBebePoliglotaMexico/" class="btn-floating" target="_blank"><img src="{{ asset('media/social/icon-facebook.png') }}" class="responsive-img" /></a></li>
             </ul>
     </div>
 <!-- End Floating Action Button -->
@@ -249,6 +321,9 @@
         </div>
     </footer>
 <!-- End Footer -->
+
+</div>
+
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js" ></script>
 <script type="text/javascript" src="{{ asset('js/materialize.min.js') }}" ></script>
