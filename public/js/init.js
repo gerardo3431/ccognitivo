@@ -20,6 +20,8 @@
         	$('.carousel').carousel('next');
         }, 15000);
 
+        $('.input#input_text').characterCounter();
+
     });
 
     window.addEventListener('load', () => {

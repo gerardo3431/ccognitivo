@@ -716,8 +716,32 @@
 <!-- Parallax -->
     <div class="parallax-container">
         <img src="{{ asset('media/cognitivo-blanco.png') }}" height="90px" />
+        <!-- Init Form -->
+            <div class="container blue lighten-2 transparent">
+                <div class="section">
+                    
+                        
+                            <div class="row">
+                                <form class="col s12">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input type="text" name="nombre" class="validate" placeholder="Nombre" id="nombre" />
+                                            <label for="nombre">Nombre</label>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <input type="text" name="apellidos" class="validate" placeholder="Apellidos" id="apellidos" />
+                                            <label for="apellidos">Apellidos</label>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                       
+                    
+                </div>                 
+            </div>
+        <!-- End Form -->
         <div class="parallax">
-            <img src="{{ asset('media/web-banner-two.jpg') }}" />
+            <img src="{{ asset('media/web-banner-two.jpg') }}" />   
         </div>
     </div>
 <!-- End Parallax -->
