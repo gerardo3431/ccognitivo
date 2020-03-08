@@ -21,6 +21,7 @@
         }, 15000);
 
         $('.input#input_text').characterCounter();
+        $('.datepicker').datepicker();
 
     });
 

@@ -717,26 +717,74 @@
     <div class="parallax-container">
         <img src="{{ asset('media/cognitivo-blanco.png') }}" height="90px" />
         <!-- Init Form -->
-            <div class="container blue lighten-2 transparent">
-                <div class="section">
-                    
-                        
-                            <div class="row">
-                                <form class="col s12">
-                                    <div class="row">
-                                        <div class="input-field col s12">
-                                            <input type="text" name="nombre" class="validate" placeholder="Nombre" id="nombre" />
-                                            <label for="nombre">Nombre</label>
-                                        </div>
-                                        <div class="input-field col s12">
-                                            <input type="text" name="apellidos" class="validate" placeholder="Apellidos" id="apellidos" />
-                                            <label for="apellidos">Apellidos</label>
-                                        </div>
+            <div class="container white">
+                <div class="section">  
+                    <div class="row center">
+                        <form class="col s12">
+
+                            <div class="row col s6">
+                                
+                                <div class="row">
+                                    <div class="input-field col s10">
+                                        <input type="text" name="txt-nombre_tutor" class="validate" placeholder="Nombre del tutor" id="nombre-tutor" />
+                                        <label for="nombre-tutor">Nombre del tutor</label>
                                     </div>
-                                </form>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s5">
+                                        <input type="text" name="txt-ap_paterno" class="validate" placeholder="Apellido paterno" id="ap-paterno" />
+                                        <label for="ap-paterno">Apellido paterno</label>
+                                    </div>
+                                    <div class="input-field col s5">
+                                        <input type="text" name="txt-ap_materno" class="validate" placeholder="Apellido materno" id="ap-materno" />
+                                        <label for="ap-materno">Apellido materno</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input type="text" name="txt-nombre-nino" class="validate" placeholder="Nombre completo del niño(a)" id="nombre_nino" />
+                                        <label for="nombre_nino">Nombre del niño(a)</label>
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input type="number" name="txt-edad_nino" class="validate" placeholder="Edad niño(a)" id="edad-nino" />
+                                        <label>Edad del niño(a)</label>
+                                    </div>
+                                </div>
+
                             </div>
-                       
-                    
+
+                            <div class="row col s6">
+                                
+                                <div class="row">
+                                    <div class="input-field col s5">
+                                        <input type="tel" name="txt-telefono" class="validate" placeholder="Número de teléfono" id="num-telefono" />
+                                        <label for="num-telefono">Número de teléfono</label>
+                                    </div>
+                                    <div class="input-field col s5">
+                                        <input type="email" name="txt_mail" class="validate" placeholder="Correo electrónico" id="email" />
+                                        <label for="email">Correo electrónico</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s10">
+                                        <input type="text" name="txt-sucursal" class="validate" placeholder="Elija una sucursal" id="sucursal" />
+                                        <label for="sucursal">Sucursal</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s10">
+                                        
+                                        <input type="text" name="txt-agendar" class="datepicker" placeholder="Agende una cita" id="agenda" />
+                                        <label for="agenda">Elija una fecha</label>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <a href="#" class="waves-effect waves-light btn center">Enviar</a>
+
+                        </form>
+                    </div>                    
                 </div>                 
             </div>
         <!-- End Form -->
