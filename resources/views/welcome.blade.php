@@ -632,7 +632,7 @@
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Método Bebé Políglota <i class="material-icons right">close</i></span>
-                        <p>Es un programa que introduce al bebé en un ambiente multilingüe, para aprovechar su neuroplasticidad, y provocar estímulos positivos a partir de los idiomas.</p>
+                        <p>El método que introduce al bebé y al niño en un ambiente multilingüe, para aprovechar su neuroplasticidad, y provocar estímulos positivos a partir del contacto con 7 idiomas.</p>
                     </div>
                 </div>
             </div>
@@ -650,7 +650,7 @@
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Neuron Baby <i class="material-icons right">close</i></span>
-                        <p>Programa de estimulación temprana o atención temprana multisensorial que consiste en proporcionar al bebé y al niño las mejores oportunidades de desarrollo físico, intelectual y social para que sus capacidades y habilidades le permitan ser mejor de lo que hubiera sido sin entorno rico en estimulación intelectuales y físicos de calidad.</p>
+                        <p>Programa de interacción oportuna que consiste en proporcionar al babé y al niño las mejores oportunidades de desarrollo físico, intelectual y social de 0 a 24 meses.</p>
                     </div>
                 </div>
             </div>
@@ -668,7 +668,7 @@
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Neuron School <i class="material-icons right">close</i></span>
-                        <p>Método de enseñanza neuro psicopedagógico que desarrolla habilidades de manera lúcida para la futura etapa preescolar. Dirigido a niños a partir de los 2 años.</p>
+                        <p>Prekinder neuro psicopedagógico que desarrolla habilidades de manera lúdica y divertida para la futura etapa preescolar. Dirigido a niños y niñas a partir de los 2 años.</p>
                     </div>
                 </div>
             </div>
