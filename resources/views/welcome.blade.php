@@ -508,8 +508,11 @@
         <div class="nav-wrapper purple lighten-1">
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#servicio">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca</a></li>
+                <li><a href="#servicio">Programas</a></li>
+                <li><a href="#equipo">Equipo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </div>
     </nav>
@@ -610,6 +613,38 @@
 
 </div>
 <!-- End Carousel -->
+
+<div class="section">
+    
+    <div class="row">
+        <div class="col s12 m3 xl3 teal accent-3">
+            <div class="section white-text">
+                <span class="title">Educación</span>
+                <i class="material-icons medium">books</i>
+                <p>Programas neuroeducativos para bebés y niños de 0 a 7 años.</p>   
+            </div>
+        </div>
+        <div class="col s12 m3 xl3 cyan accent-3">
+            <div class="section white-text">
+                <span>Educación</span>
+                <p>lksjhflkjsdkljflksdfklsjdfkldsjfkljdsf sdf sadf hgjh gjhg hjgh gjhg jhg jhgj gjhgjjhgjhg hgjhgjhg jggjhgjh gjhgj hgjh gjhg jhg hg.</p>
+            </div>
+        </div>
+        <div class="col s12 m3 xl3 deep-orange lighten-1">
+            <div class="section white-text">
+                <span>Educación</span>
+                <p>lksjhflkjsdkljflksdfklsjdfkldsjfkljdsf sdf sadf hgjh gjhg hjgh gjhg jhg jhgj gjhgjjhgjhg hgjhgjhg jggjhgjh gjhgj hgjh gjhg jhg hg.</p>   
+            </div>
+        </div>
+        <div class="col s12 m3 xl3 deep-purple accent-2">
+            <div class="section white-text">
+                <span>Educación</span>
+                <p>lksjhflkjsdkljflksdfklsjdfkldsjfkljdsf sdf sadf hgjh gjhg hjgh gjhg jhg jhgj gjhgjjhgjhg hgjhgjhg jggjhgjh gjhgj hgjh gjhg jhg hg.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
 
 <!-- INIT CARDS -->
     <div class="container">
@@ -870,7 +905,7 @@
         <div class="footer-copyright">
             <div class="container">
                 © 2020 Copyright Text
-                <a href="#" class="grey-text text-lighten-4 right">More Links</a>
+                <a href="#" class="grey-text text-lighten-4 right">Privacidad</a>
             </div>
         </div>
     </footer>
