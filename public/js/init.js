@@ -46,11 +46,12 @@
     	carga();
 
     	function carga(){
-    		document.getElementById('load').className = 'hide';
+    		document.getElementById('load').className = 'hide animated fadeInDown';
 
     		document.getElementById('carousel').className = '';
     	}
 
+    new WOW().init();
     
 
     })

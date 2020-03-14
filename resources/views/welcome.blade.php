@@ -13,6 +13,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css' />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="{{ asset('css/materialize.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/animate.css') }}" />
 
     <style type="text/css">
         .valign-wrapper {
@@ -617,29 +618,32 @@
 <div class="section">
     
     <div class="row">
-        <div class="col s12 m3 xl3 teal accent-3">
+        <div class="col s12 m3 xl3 teal accent-3 wow animated fadeIn">
             <div class="section white-text">
-                <span class="title">Educación</span>
-                <i class="material-icons medium">books</i>
+                <h5>Educación</h5>
+                <div class="divider"></div>
                 <p>Programas neuroeducativos para bebés y niños de 0 a 7 años.</p>   
             </div>
         </div>
-        <div class="col s12 m3 xl3 cyan accent-3">
+        <div class="col s12 m3 xl3 cyan accent-3 wow animated fadeIn">
             <div class="section white-text">
-                <span>Educación</span>
-                <p>lksjhflkjsdkljflksdfklsjdfkldsjfkljdsf sdf sadf hgjh gjhg hjgh gjhg jhg jhgj gjhgjjhgjhg hgjhgjhg jggjhgjh gjhgj hgjh gjhg jhg hg.</p>
+                <h5>Programa</h5>
+                <div class="divider"></div>
+                <p>Potencializa el cerebro con las herramientas de súper aprendizaje.</p>
             </div>
         </div>
-        <div class="col s12 m3 xl3 deep-orange lighten-1">
+        <div class="col s12 m3 xl3 deep-orange lighten-1 wow animated fadeIn">
             <div class="section white-text">
-                <span>Educación</span>
-                <p>lksjhflkjsdkljflksdfklsjdfkldsjfkljdsf sdf sadf hgjh gjhg hjgh gjhg jhg jhgj gjhgjjhgjhg hgjhgjhg jggjhgjh gjhgj hgjh gjhg jhg hg.</p>   
+                <h5>Beneficio</h5>
+                <div class="divider"></div>
+                <p>Obtendrá un proceso de adaptación, experiencias acorde a su edad.</p>   
             </div>
         </div>
-        <div class="col s12 m3 xl3 deep-purple accent-2">
+        <div class="col s12 m3 xl3 deep-purple accent-2 wow animated fadeIn">
             <div class="section white-text">
-                <span>Educación</span>
-                <p>lksjhflkjsdkljflksdfklsjdfkldsjfkljdsf sdf sadf hgjh gjhg hjgh gjhg jhg jhgj gjhgjjhgjhg hgjhgjhg jggjhgjh gjhgj hgjh gjhg jhg hg.</p>
+                <h5>Sesiones</h5>
+                <div class="divider"></div>
+                <p>Las sesiones neuroeducativas son de 50 minutos, 2 veces al día.</p>
             </div>
         </div>
     </div>
@@ -647,7 +651,7 @@
 </div>
 
 <!-- INIT CARDS -->
-    <div class="container">
+    <div class="container wow animated fadeInRight">
         <div class="section scrollspy" id="servicio">
             <h2>Servicios</h2>
         </div>
@@ -832,7 +836,7 @@
 <!-- Card 2 -->
     <div class="container center">
         <div class="row">
-            <div class="col s12 m6">
+            <div class="col s12 m6 wow animated fadeInRight">
                 <div class="card horizontal">
                     <div class="card-image">
                         <img src="{{ asset('media/products/pavinchi/pavinchi-card.jpg') }}" class="materialboxed" />
@@ -848,7 +852,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col s12 m6">
+            <div class="col s12 m6 wow animated fadeInLeft">
                 <div class="card horizontal">
                     <div class="card-image">
                         <img src="{{ asset('media/products/luka/luka-card.jpg') }}" class="materialboxed" />
@@ -916,6 +920,7 @@
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js" ></script>
 <script type="text/javascript" src="{{ asset('js/materialize.min.js') }}" ></script>
+<script type="text/javascript" src="{{ asset('js/wow.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/init.js') }}"></script>
 </html>
 
