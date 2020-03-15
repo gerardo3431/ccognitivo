@@ -20,6 +20,8 @@
         	$('.carousel').carousel('next');
         }, 15000);
 
+		// Formulario
+
         $('.input#input_text').characterCounter();
         $('.datepicker').datepicker();
 
@@ -48,7 +50,7 @@
     	function carga(){
     		document.getElementById('load').className = 'hide animated fadeInDown';
 
-    		document.getElementById('carousel').className = '';
+    		document.getElementById('carousel').className = 'scrollspy';
     	}
 
     new WOW().init();

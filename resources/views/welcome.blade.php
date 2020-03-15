@@ -506,10 +506,10 @@
 <!-- Nav -->
 <div class="navbar-fixed">
     <nav>
-        <div class="nav-wrapper purple lighten-1">
+        <div class="nav-wrapper blue darken-3">
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#carousel">Inicio</a></li>
                 <li><a href="#acerca">Acerca</a></li>
                 <li><a href="#servicio">Programas</a></li>
                 <li><a href="#equipo">Equipo</a></li>
@@ -532,8 +532,11 @@
                         </a>
                     </div>
                 </li>
-                <li><a href="#servicio">Servicios</a></li>
+                <li><a href="#carousel">Inicio</a></li>
+                <li><a href="#servicio">Programas</a></li>
                 <li><div class="divider"></div></li>
+                <li><a href="#equipo">Equipo</a></li>
+                <li><a href="#acerca">Acerca</a></li>
                 <li><a href="#">Contactos</a></li>
             </ul>
 <!-- End Nav -->
@@ -618,28 +621,28 @@
 <div class="section">
     
     <div class="row">
-        <div class="col s12 m3 xl3 teal accent-3 wow animated fadeIn">
+        <div class="col s12 m4 xl3 teal accent-3 wow animated fadeIn">
             <div class="section white-text">
                 <h5>Educación</h5>
                 <div class="divider"></div>
                 <p>Programas neuroeducativos para bebés y niños de 0 a 7 años.</p>   
             </div>
         </div>
-        <div class="col s12 m3 xl3 cyan accent-3 wow animated fadeIn">
+        <div class="col s12 m4 xl3 cyan accent-3 wow animated fadeIn">
             <div class="section white-text">
                 <h5>Programa</h5>
                 <div class="divider"></div>
                 <p>Potencializa el cerebro con las herramientas de súper aprendizaje.</p>
             </div>
         </div>
-        <div class="col s12 m3 xl3 deep-orange lighten-1 wow animated fadeIn">
+        <div class="col s12 m4 xl3 deep-orange lighten-1 wow animated fadeIn">
             <div class="section white-text">
                 <h5>Beneficio</h5>
                 <div class="divider"></div>
                 <p>Obtendrá un proceso de adaptación, experiencias acorde a su edad.</p>   
             </div>
         </div>
-        <div class="col s12 m3 xl3 deep-purple accent-2 wow animated fadeIn">
+        <div class="col s12 m4 xl3 deep-purple accent-2 wow animated fadeIn">
             <div class="section white-text">
                 <h5>Sesiones</h5>
                 <div class="divider"></div>
@@ -650,10 +653,77 @@
 
 </div>
 
+
+<!-- -->
+<div class="container">
+    <div class="section scrollspy" id="acerca">
+        <div class="row">
+            <div class="col s12 center">
+                <h3>Algunas palabras sobre nosotros</h3>
+                <div class="container">
+                    <p>Estamos dedicado a proporcionar una amplia variedad de servicios neuroeducativos, a tiempo que aumentamos las habilidades y el conocimiento básico de sus hijos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 xl6 wow animated bounce">
+                <div class="z-depth-2">
+                    <img src="{{ asset('media/nosotros.jpg') }}" class="responsive-img" />
+                </div>
+            </div>
+            <div class="container col s12 m6 xl6 wow animated zoomIn">
+                <p>En Capital Cognitivo, nuestra misión es</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -->
+
+
+<!-- -->
+<div class="pink lighten-3 white-text">
+    <div class="container">
+        <div class="section col s12">
+            <div class="row">
+                <div class="col s12 m4 xl4">
+                    <h6 class="center"><i class="material-icons medium">security</i></h6>
+                    <p>Ofrecemos protección y seguridad de primera clase para sus hijos.</p>
+                </div>
+                <div class="col s12 m4 xl4">
+                    <h6 class="center"><i class="material-icons medium">share</i></h6>
+                    <p>Novedoso sistema de estimulación de habilitación y puesta a punto de la actividad neuronal, encaminado a que los niños de 0 a 7 años se relacionen con 7 idiomas.</p>
+                </div>
+                <div class="col s12 m4 xl4">
+                    <h6 class="center"><i class="material-icons medium">chrome_reader_mode</i></h6>
+                    <p>Los asesores neuroeducativos te brindarán toda la información necesaria acerca de las ventajas de la interacción oportuna, multilingüismo y lectura a temprana edad.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m4 xl4">
+                    <h6 class="center"><i class="material-icons medium">child_care</i></h6>
+                    <p>Satisfacer las necesidades educativas de los bebés a través de los programas neuroeducativos.</p>
+                </div>
+                <div class="col s12 m4 xl4">
+                    <h6 class="center"><i class="material-icons medium">palette</i></h6>
+                    <p>Nuestro plan de estudios fue diseñado para fomentar la creatividad de los niños(as) de Capital Cognitivo.</p>
+                </div>
+                <div class="col s12 m4 xl4">
+                    <h6 class="center"><i class="material-icons medium">filter_vintage</i></h6>
+                    <p>Las mejores condiciones para que su hijo tenga una experiencia de aprendizaje única</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -->
+
+
+
+
 <!-- INIT CARDS -->
     <div class="container wow animated fadeInRight">
         <div class="section scrollspy" id="servicio">
-            <h2>Servicios</h2>
+            <h2>Programas</h2>
         </div>
     
         <div class="row">
@@ -753,7 +823,7 @@
 <!-- END CARDS -->
 
 <!-- Parallax -->
-    <div class="parallax-container">
+    <div class="parallax-container" style="height: 820px">
         <img src="{{ asset('media/cognitivo-blanco.png') }}" height="90px" />
         <!-- Init Form -->
             <div class="container white">
@@ -761,30 +831,30 @@
                     <div class="row center">
                         <form class="col s12">
 
-                            <div class="row col s6">
+                            <div class="row col s12 m6 xl6">
                                 
                                 <div class="row">
-                                    <div class="input-field col s10">
+                                    <div class="input-field col s12 m10 xl10">
                                         <input type="text" name="txt-nombre_tutor" class="validate" placeholder="Nombre del tutor" id="nombre-tutor" />
                                         <label for="nombre-tutor">Nombre del tutor</label>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="input-field col s5">
+                                    <div class="input-field col s6 m5 xl5">
                                         <input type="text" name="txt-ap_paterno" class="validate" placeholder="Apellido paterno" id="ap-paterno" />
                                         <label for="ap-paterno">Apellido paterno</label>
                                     </div>
-                                    <div class="input-field col s5">
+                                    <div class="input-field col s6 m5 xl5">
                                         <input type="text" name="txt-ap_materno" class="validate" placeholder="Apellido materno" id="ap-materno" />
                                         <label for="ap-materno">Apellido materno</label>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="input-field col s6">
+                                    <div class="input-field col s8 m6 xl6">
                                         <input type="text" name="txt-nombre-nino" class="validate" placeholder="Nombre completo del niño(a)" id="nombre_nino" />
                                         <label for="nombre_nino">Nombre del niño(a)</label>
                                     </div>
-                                    <div class="input-field col s4">
+                                    <div class="input-field col s4 m4 xl4">
                                         <input type="number" name="txt-edad_nino" class="validate" placeholder="Edad niño(a)" id="edad-nino" />
                                         <label>Edad del niño(a)</label>
                                     </div>
@@ -792,26 +862,26 @@
 
                             </div>
 
-                            <div class="row col s6">
+                            <div class="row col s12 m6 xl6">
                                 
                                 <div class="row">
-                                    <div class="input-field col s5">
+                                    <div class="input-field col s6 m5 xl5">
                                         <input type="tel" name="txt-telefono" class="validate" placeholder="Número de teléfono" id="num-telefono" />
                                         <label for="num-telefono">Número de teléfono</label>
                                     </div>
-                                    <div class="input-field col s5">
+                                    <div class="input-field col s6 m5 xl5">
                                         <input type="email" name="txt_mail" class="validate" placeholder="Correo electrónico" id="email" />
                                         <label for="email">Correo electrónico</label>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="input-field col s10">
+                                    <div class="input-field col s12 m10 xl10">
                                         <input type="text" name="txt-sucursal" class="validate" placeholder="Elija una sucursal" id="sucursal" />
                                         <label for="sucursal">Sucursal</label>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="input-field col s10">
+                                    <div class="input-field col s12 m10 xl10">
                                         
                                         <input type="text" name="txt-agendar" class="datepicker" placeholder="Agende una cita" id="agenda" />
                                         <label for="agenda">Elija una fecha</label>
@@ -875,7 +945,7 @@
 
 <!-- Floating Action Button -->
     <div class="fixed-action-btn">
-        <a class="btn-floating btn-large blue">
+        <a class="btn-floating btn-large deep-purple lighten-2">
             <i class="material-icons large">share</i>
         </a>   
             <ul>
@@ -888,7 +958,7 @@
 <!-- End Floating Action Button -->
 
 <!-- Footer -->
-    <footer class="page-footer purple accent-3">
+    <footer class="page-footer blue darken-2">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
@@ -908,7 +978,7 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-                © 2020 Copyright Text
+                © 2020 Capital Cognitivo, Todos los derechos reservados.
                 <a href="#" class="grey-text text-lighten-4 right">Privacidad</a>
             </div>
         </div>
