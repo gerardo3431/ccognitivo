@@ -485,13 +485,6 @@
  
 }
 
-.google-maps iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-    }
 </style>
 
 </head>
@@ -997,7 +990,9 @@
                 <div class="col s12 m8 xl8 wow animated pulse">
                     <div class="section">
                         <div class="container center">
-                            <div class="google-maps">
+                            
+                            <!-- Aqui me quedé -->
+                            <div class="">
                                 
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1897.2456692077471!2d-92.93269578494152!3d18.002387275391072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85edd8189fdc0573%3A0x8104e2d03844d046!2sCapitalCognitivo%20(M%C3%A9todo%20Beb%C3%A9%20Pol%C3%ADglota%20M%C3%A9xico)!5e0!3m2!1ses-419!2smx!4v1584753769368!5m2!1ses-419!2smx" width="700" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                             
