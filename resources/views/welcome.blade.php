@@ -472,7 +472,27 @@
         -moz-transform: rotate(1080deg);
     }
 }
-    </style>
+
+.portada{
+   background: url({{ asset('media/fondo-section.jpg') }}) no-repeat fixed center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 100%;
+   width: 100% ;
+   text-align: center;
+ 
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    }
+</style>
 
 </head>
 <body>
@@ -672,7 +692,7 @@
                 </div>
             </div>
             <div class="container col s12 m6 xl6 wow animated zoomIn">
-                <p>En Capital Cognitivo, nuestra misión es</p>
+                <p>En Capital Cognitivo, nuestra misión es ser la empresa líder en métodos educativos de enseñanza infantil por innovación y soluciones. Brindandole a la sociedad, inversionista y colaboradores la mejor satisfacción en nuestros proyectos y servicios, así como hacer de México una generación de niños con mejores habilidades y herramientas para un futuro.</p>
             </div>
         </div>
     </div>
@@ -721,8 +741,10 @@
 
 
 <!-- INIT CARDS -->
-    <div class="container wow animated fadeInRight">
-        <div class="section scrollspy" id="servicio">
+<div class="portada amber lighten-4 white-text">
+
+    <div class="container section wow animated fadeInRight">
+        <div class="section scrollspy black-text" id="servicio">
             <h2>Programas</h2>
         </div>
     
@@ -820,6 +842,8 @@
 
         </div>
     </div>
+
+</div>
 <!-- END CARDS -->
 
 <!-- Parallax -->
@@ -851,8 +875,8 @@
                                 </div>
                                 <div class="row">
                                     <div class="input-field col s8 m6 xl6">
-                                        <input type="text" name="txt-nombre-nino" class="validate" placeholder="Nombre completo del niño(a)" id="nombre_nino" />
-                                        <label for="nombre_nino">Nombre del niño(a)</label>
+                                        <input type="text" name="txt-nombre-nino" class="validate" placeholder="Nombre completo del niño(a)" id="nombre-nino" />
+                                        <label for="nombre-nino">Nombre del niño(a)</label>
                                     </div>
                                     <div class="input-field col s4 m4 xl4">
                                         <input type="number" name="txt-edad_nino" class="validate" placeholder="Edad niño(a)" id="edad-nino" />
@@ -942,6 +966,49 @@
     </div>
 
 <!-- End Card 2 -->
+
+<!-- CONTACT -->
+    <div class="section grey lighten-2">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4 xl4 wow animated pulse">
+                    <h6>Contacto</h6>
+                    <div class="section">
+                        <form class="s12">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input type="text" name="nombre" id="nombre-contacto" class="validate"  />
+                                    <label for="nombre-contacto">Nombre</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" name="correo-contacto" id="correo-contacto" class="validate" />
+                                    <label for="correo-contacto">Correo Electrónico</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <textarea id="message-contacto" class="materialize-textarea"></textarea>
+                                    <label for="message-contacto">Asunto</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Google Map -->
+                <div class="col s12 m8 xl8 wow animated pulse">
+                    <div class="section">
+                        <div class="container center">
+                            <div class="google-maps">
+                                
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1897.2456692077471!2d-92.93269578494152!3d18.002387275391072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85edd8189fdc0573%3A0x8104e2d03844d046!2sCapitalCognitivo%20(M%C3%A9todo%20Beb%C3%A9%20Pol%C3%ADglota%20M%C3%A9xico)!5e0!3m2!1ses-419!2smx!4v1584753769368!5m2!1ses-419!2smx" width="700" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- END CONTACT -->
 
 <!-- Floating Action Button -->
     <div class="fixed-action-btn">
