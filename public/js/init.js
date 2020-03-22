@@ -1,4 +1,8 @@
     $(document).ready(function(){
+        $('.carousel.carousel-slider').carousel({
+            fullWidth: true,
+            indicators: true
+        });
         $('.parallax').parallax();
         $('.materialboxed').materialbox();
         $('.sidenav').sidenav();
@@ -9,16 +13,12 @@
         	hoverEnabled: false 	 	
         });
 
-        $('.carousel.carousel-slider').carousel({
-            fullWidth: true,
-            indicators: true
-        });
 
         //Intervalo de cambio para el carousel
 
-        setInterval(function(){
-        	$('.carousel').carousel('next');
-        }, 15000);
+       // setInterval(function(){
+       // 	$('.carousel').carousel('next');
+       // }, 15000);
 
 		// Formulario
 
@@ -49,8 +49,6 @@
 
     	function carga(){
     		document.getElementById('load').className = 'hide animated fadeInDown';
-
-    		document.getElementById('carousel').className = 'scrollspy';
     	}
 
     new WOW().init();
