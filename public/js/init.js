@@ -3,6 +3,7 @@
             fullWidth: true,
             indicators: true
         });
+        $('.carousel').carousel();
         $('.parallax').parallax();
         $('.materialboxed').materialbox();
         $('.sidenav').sidenav();
@@ -37,7 +38,7 @@
     		document.getElementById('content').className = '';
     	}
 
-    
+       new WOW().init();
 
     })
 
@@ -51,7 +52,7 @@
     		document.getElementById('load').className = 'hide animated fadeInDown';
     	}
 
-    new WOW().init();
+ 
     
 
     })

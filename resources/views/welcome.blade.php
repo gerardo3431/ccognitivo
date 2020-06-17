@@ -27,6 +27,25 @@
            width: 100% ;
          
         }
+
+        .map-responsive {
+
+            overflow: hidden;
+            padding-bottom: 56.25%;
+            position: relative;
+            height: 0;
+
+        }
+
+        .map-responsive iframe {
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+
+        }
+
     </style>
 </head>
 <body>
@@ -98,23 +117,17 @@
 
 <!-- Carousel -->
 
-
-    
-    <div class="carousel carousel-slider">
-        <a class="carousel-item" href="#one!">
-            <img src="{{ asset('media/products/luka/luka-banner-1.jpg') }}" />
-        </a>
-        <a class="carousel-item" href="#two!">
-            <img src="{{ asset('media/products/pavinchi/pavinchi-banner-1.jpg') }}" />
-        </a>
-        <a class="carousel-item" href="#three!">
-            <img src="{{ asset('media/products/neuron_school/neuron-school-banner-1.jpg') }}" />
-        </a>
-        <a class="carousel-item" href="#four!">
-            <img src="{{ asset('media/products/polyglot_school/polyglot-school-banner-1.jpg') }}" />
-        </a>
+    <div class="carousel">
+        <div class="carousel-item">
+            
+            
+        </div>
+            
+        
+        <a class="carousel-item" href="{{ asset('media/1.jpg') }}"></a>
+        <a class="carousel-item" href="https://youtu.be/4330x9GHkqk"></a>
+        <a class="carousel-item" href="https://youtu.be/Lwqd8wNrzbU"></a>
     </div>
-
 
 <!-- End Carousel -->
 
@@ -474,12 +487,12 @@
                 </div>
 
                 <!-- Google Map -->
-                <div class="col s12 m8 xl8 wow animated pulse">
+                <div class="col s12 m8 xl8  wow animated pulse">
                     <div class="section">
                         <div class="container center">
                             
-                            <!-- Aqui me quedé -->
-                            <div class="">
+                            <!-- Aqui me quedé Inicia Google Maps -->
+                            <div class="map-responsive dimensiones-max banner-aside">
                                 
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1897.2456692077471!2d-92.93269578494152!3d18.002387275391072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85edd8189fdc0573%3A0x8104e2d03844d046!2sCapitalCognitivo%20(M%C3%A9todo%20Beb%C3%A9%20Pol%C3%ADglota%20M%C3%A9xico)!5e0!3m2!1ses-419!2smx!4v1584753769368!5m2!1ses-419!2smx" width="700" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                             
@@ -487,6 +500,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
